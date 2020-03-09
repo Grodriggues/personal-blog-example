@@ -19,17 +19,16 @@ a {
   color: #fff;
   text-transform: uppercase;
   border-bottom: 3px transparent solid;
-  padding-bottom:0.5rem;
+  padding-bottom: 0.5rem;
   transition: border-color 0.5s;
 
-  &:hover{
-    border-color:$medium-color;
+  &:hover {
+    border-color: $medium-color;
   }
 
-  &.current{
-    border-color:$main-color;
+  &.current {
+    border-color: $main-color;
   }
-  
 }
 
 ul {
@@ -78,5 +77,15 @@ img {
     background: $bg-image no-repeat center right/cover;
     height: 100vh;
     color: #fff;
+
+    .header-content {
+      text-align: center;
+      padding-top: 20%;
+
+      h1 {
+        font-size: 4rem;
+        line-height: 1.2;
+      }
+    }
   }
 }
