@@ -125,5 +125,19 @@ img {
         }
       }
     }
+
+    .stats {
+      div {
+        padding: 3rem 0;
+
+        &:nth-child(odd) {
+          background: $light-color;
+        }
+
+        &:nth-child(even) {
+          background: $medium-color;
+        }
+      }
+    }
   }
 }
