@@ -82,7 +82,7 @@ input[class^="btn-"]:hover {
 
 .bg-dark {
   background: #333;
-  color: #333; }
+  color: #f4f4f4; }
 
 body {
   font-family: "Dosis", sans-serif;
@@ -224,6 +224,31 @@ img {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
   padding: 0.8rem; }
+
+#about-a .award-1 {
+  grid-area: aw1; }
+
+#about-a .award-2 {
+  grid-area: aw2; }
+
+#about-a .award-3 {
+  grid-area: aw3; }
+
+#about-a .award-1 .fas,
+#about-a .award-2 .fas,
+#about-a .award-3 .fas {
+  color: #ffbc00;
+  margin: 1rem; }
+
+#about-b .progress {
+  overflow: hidden;
+  height: 20px;
+  background: grey;
+  border-radius: 5px;
+  margin-bottom: 0.3rem; }
+  #about-b .progress div {
+    height: 100%;
+    background-color: #ffbc00; }
 
 #main-footer {
   background: #333;
