@@ -59,6 +59,13 @@ input[class^="btn-"]:hover {
 .py-4 {
   padding: 4rem 0; }
 
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: #ffbc00;
+  display: block;
+  margin: 0 auto 1rem auto; }
+
 body {
   font-family: "Dosis", sans-serif;
   line-height: 1.6;
