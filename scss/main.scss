@@ -195,6 +195,30 @@ img {
   }
 }
 
+//About sections
+
+#about {
+  &-a {
+    .about-info {
+      display: grid;
+      grid-template-areas:
+        "bioimage bio bio"
+        "aw1 aw2 aw3";
+      gap: 1.2rem;
+    }
+
+    .bio-image {
+      grid-area: bioimage;
+    }
+
+    .bio {
+      grid-area: bio;
+      border-left: 3px solid $main-color;
+      padding: 0.8rem;
+    }
+  }
+}
+
 //Footer
 #main-footer {
   background: $dark-color;

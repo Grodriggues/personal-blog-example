@@ -212,6 +212,19 @@ img {
       #home-c .process-icon:hover .process-step {
         background-color: #333; }
 
+#about-a .about-info {
+  display: grid;
+  grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
+  gap: 1.2rem; }
+
+#about-a .bio-image {
+  grid-area: bioimage; }
+
+#about-a .bio {
+  grid-area: bio;
+  border-left: 3px solid #ffbc00;
+  padding: 0.8rem; }
+
 #main-footer {
   background: #333;
   color: #fff;
