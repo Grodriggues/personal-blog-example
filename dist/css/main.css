@@ -66,6 +66,12 @@ input[class^="btn-"]:hover {
   display: block;
   margin: 0 auto 1rem auto; }
 
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center; }
+
 body {
   font-family: "Dosis", sans-serif;
   line-height: 1.6;
@@ -151,3 +157,9 @@ img {
     background: #f4f4f4; }
   #home-b .stats div:nth-child(even) {
     background: #ccc; }
+
+#home-c .process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  text-align: center; }
